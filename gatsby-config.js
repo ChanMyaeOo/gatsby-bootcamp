@@ -11,6 +11,7 @@ module.exports = {
     author: 'Chan Myae Oo'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
